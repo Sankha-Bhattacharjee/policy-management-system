@@ -1,0 +1,135 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+* {
+  box-sizing: border-box;
+  font-family:Times New Roman; 
+  
+}
+body {
+  font-family: Times New Roman;
+  padding: 10px;
+  background-image: url("projectback.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-blend-mode: luminosity;
+  
+  
+   
+}
+
+.errors
+{
+	color:red;
+	font-size: 15px;
+}
+
+
+
+/* Style the top navigation bar */
+.navbar{
+	font-size:20px;
+}
+.navbar-brand{
+	font-size:30px !important;
+}
+.tables{
+	font-family: sans-serif;
+  align-content: center;
+  align-items: center;
+  font-weight:bold;
+  border:none;
+  border-radius:9px;
+  font-size: 20px;
+  /*background-color: #ebebeb;*/
+  background-color: #343a40; /* Fallback color */
+  opacity:0.9;
+  color: #e6e6e6;
+  height: 50%;
+ 
+}
+
+i{
+	font-size: 15px;
+	
+}
+.card1 {
+  padding: 0 20px;
+  margin-top: 100px;
+  text-align: center;
+  background-color:0;
+  background-clip:0;
+  border:0;
+  
+}
+.card1:hover body{
+	opacity :0.5;
+}
+
+tr,td{
+
+text-align: left;
+
+}
+
+
+input[type=text],[type=date],[type=password],[type=number],[type=tel],[type=email]{
+	background: transparent;
+    border: none;
+    border-bottom: 1px solid  #ebebeb;
+    width: 90%;
+    color: white;
+    padding : 8px;
+}
+select{
+	background: transparent;
+    border: none;
+    border-bottom: 1px solid  #ebebeb;
+    width: 90%;
+    color: white;
+    padding : 8px;
+}
+option{
+	background:black ;
+}
+input[type=submit] {
+  background-color: #0a0a0a;
+  color: white;
+  padding: 5px 10px;
+  border: 0.5px medium white;
+  
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  
+}
+radiobutton{
+	display:inline;
+}
+input:required:onsubmit:invalid{
+	
+	border: 5px solid red !important;
+
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.card2 {
+  padding: 0 20px;
+  margin-top: 160px;
+  margin-left:100px;
+  margin-right:100px;
+  text-align: center;
+  /* border:1px solid white; */
+}
+
+
+
